@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraControl : MonoBehaviour
-{
+{   
     // Start is called before the first frame update
     void Start()
     {
@@ -18,11 +18,11 @@ public class CameraControl : MonoBehaviour
 
         if (myVal != 0)
         {
-            transform.Rotate(0f - myVal, 0f, 0f);
+            transform.Translate(0f - myVal, 0f, 0f);
         }
         if (mxVal != 0)
         {
-            transform.Rotate(0f, 0f + mxVal, 0f);
+            transform.Translate(0f, 0f + mxVal, 0f);
         } 
     }
 }
