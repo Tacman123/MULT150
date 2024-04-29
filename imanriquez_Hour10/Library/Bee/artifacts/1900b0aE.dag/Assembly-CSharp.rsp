@@ -354,6 +354,13 @@
 "Assets/Environment/Water/Water/Scripts/Water.cs"
 "Assets/Environment/Water/Water/Scripts/WaterBase.cs"
 "Assets/Environment/Water/Water/Scripts/WaterTile.cs"
+"Assets/FirstPersonCharacter/Scripts/FirstPersonController.cs"
+"Assets/FirstPersonCharacter/Scripts/MouseLook.cs"
+"Assets/GameCritic.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/GameTimer.cs"
+"Assets/Scripts/GoalScript.cs"
+"Assets/Scripts/VelocityScript.cs"
 -langversion:9.0
 
 /deterministic
